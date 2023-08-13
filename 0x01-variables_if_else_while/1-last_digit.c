@@ -17,9 +17,9 @@ else if (abs(n%10) == 0)
 {
 printf("Last digit of %d is %d and is 0\n", n, abs(n%10));
 }
-else if (abs(n%10) > 0 && abs(n%10) < 6)
+else if (abs(n%10) != 0 && abs(n%10) < 6)
 {
-printf("Last dig `it of %d is %d and is less than 6 and not 0\n", n,abs(n%10));
+printf("Last dig `it of %d is %d and is less than 6 and not 0\n", n, n%10);
 }
 return (0);
 }
