@@ -4,7 +4,7 @@
 /**
  * main - Entry point
  *
- * Description: Generates a random number and prints information about its last digit.
+ * Generates a random number and prints information about its last digit.
  *
  * Return: Always 0 (Success)
  */
