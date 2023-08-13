@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*
+/**
  * main-Determine a negative,positive or zero number.
  * Return: 0(Success)
-*/
+ */
 int main(void)
 {
 int n;
