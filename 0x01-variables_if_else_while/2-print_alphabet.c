@@ -1,11 +1,8 @@
 #include <stdio.h>
-/*
- * main-runs the function
- *
- * the code prinys alphabets in samll letters
- *
- * return (0) success
-*/
+/**
+ * main - If statement for the last digit.
+ * Return: 0(Success)
+ */
 int main(void)
 {
 char letter = 'a';
