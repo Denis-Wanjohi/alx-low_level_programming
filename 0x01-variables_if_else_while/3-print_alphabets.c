@@ -4,19 +4,15 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
-{
-char  letter='a';
-while(letter <='z')
-{
-putchar(letter);
-letter++;
+int main() {
+char ch;
+for (ch = 'a'; ch <= 'z'; ++ch) {
+putchar(ch);
 }
-letter='a';
-while(letter <='Z')
-{
-putchar(toupper(letter));
-letter++;
+for (ch = 'A'; ch <= 'Z'; ++ch) {
+putchar(ch);
 }
 putchar('\n');
+return 0;
 }
+
