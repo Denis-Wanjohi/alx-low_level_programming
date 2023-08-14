@@ -6,17 +6,17 @@
  */
 int main(void)
 {
-char  small_letter='a';
-while(small_letter <='z')
+char  letter='a';
+while(letter <='z')
 {
-putchar(small_letter);
-small_letter++;
+putchar(letter);
+letter++;
 }
-char  capital_letter='A';
-while(capital_letter <='Z')
+letter='a';
+while(letter <='Z')
 {
-putchar(capital_letter);
-capital_letter++;
+putchar(toupper(letter));
+letter++;
 }
 putchar('\n');
 }
