@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main(void)
 {
-for (int x=0;x<=10; x++)
+for (int x = 0; x <= 10; x++)
 {
-printf(x);
+printf("%d\n", x);
 }
-retuen (0);
+return (0);
 }
