@@ -11,11 +11,10 @@ for (x = 0; x < 10; x++)
 {
 putchar(x + '0');
 }
-char letter;
-for (letter = 'a'; letter <= 'f'; letter++)
+for (x = 'a'; x <= 'f'; x++)
 {
-putchar(letter);
+putchar(x);
 }
 putchar('\n');
 return (0);
-}i
+}
