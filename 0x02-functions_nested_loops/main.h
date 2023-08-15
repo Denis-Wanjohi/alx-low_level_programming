@@ -1,7 +1,6 @@
 #include <unistd.h>
-#ifndef main.h
-#define main.h
-
+#ifndef MAIN_H
+#define MAIN_H
 /**
  * _putchar - writes the character c to stdout
  * @c: The character to print
@@ -13,4 +12,4 @@ int _putchar(char c)
 {
 	return (write(1, &c, 1));
 }
-#endif /* main.h */
+#endif /* MAIN_H */
