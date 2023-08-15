@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 /**
  * main - check the code
  *
@@ -12,9 +12,4 @@ for (letter = 'a'; letter <= 'z'; letter++)
 _putchar(letter);
 }
 _putchar('\n');
-}
-int main(void)
-{
-print_alphabet();
-return (0);
 }
