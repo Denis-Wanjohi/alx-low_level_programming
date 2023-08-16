@@ -3,14 +3,14 @@
 /**
  * _islower - checks if a character is in lowercase
  *
- * c - character representative
+ * member 'c'- character representative
  *
  * Return: Always 0 (Success)
  */
 
 int _islower(int c)
 {
-if(islower(c))
+if (islower(c))
 {
 return (1);
 }
