@@ -6,7 +6,7 @@
  * @n: the int to check
  * Return: the absolute value of int
  */
-int _abs(int)
+int _abs(int x)
 {
-return (abs(int));
+return (abs(x));
 }
