@@ -6,8 +6,7 @@
  * @n: the int to check
  * Return: the absolute value of int
  */
-int _abs(int x)
+int _abs(int)
 {
-printf(abs(x));
-return (0);
+return (abs(int));
 }
