@@ -8,6 +8,6 @@
  */
 int _abs(int x)
 {
-printf(abs(int x));
+printf(abs(x));
 return (0);
 }
