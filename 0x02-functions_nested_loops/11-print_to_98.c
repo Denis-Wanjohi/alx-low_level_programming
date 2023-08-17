@@ -7,6 +7,10 @@ int x;
 for (x = n; x <= 98; x++)
 {
 printf("%d",x);
+if (x != 98)
+{
+printf(", ");
+}
 }
 _putchar('\n');
 }
