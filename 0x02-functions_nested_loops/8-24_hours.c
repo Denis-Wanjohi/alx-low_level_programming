@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-void jack_bauer_day(void)
+void jack_bauer_day()
 {
 	int hour;
     for (hour = 0; hour < 24; hour++)
