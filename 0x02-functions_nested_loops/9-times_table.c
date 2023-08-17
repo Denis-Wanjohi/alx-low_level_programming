@@ -9,7 +9,7 @@ int j;
 for (j = 0;j < 10; j++)
 {
 int total = i*j;
-_putchar("%d",total);
+_putchar(total);
 _putchar(',');
 _putchar(' ');
 }
