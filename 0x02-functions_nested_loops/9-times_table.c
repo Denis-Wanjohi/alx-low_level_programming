@@ -9,7 +9,7 @@ int j;
 for (j = 0;j < 10; j++)
 {
 int total = i*j;
-printf('%d',total);
+printf('%2d',total);
 if (j != 9)
 {
 _putchar(',');
