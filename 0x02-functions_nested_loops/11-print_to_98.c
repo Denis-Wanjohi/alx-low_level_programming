@@ -8,5 +8,5 @@ for (x = n; x <= 98; x++)
 {
 _putchar(x);
 }
--putchar('\n');
+_putchar('\n');
 }
