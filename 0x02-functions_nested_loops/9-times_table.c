@@ -9,11 +9,13 @@ int j;
 for (j = 0;j < 10; j++)
 {
 int total = i*j;
-_putchar(total);
+_putchar(total + '0');
+if (j != 9)
+{
 _putchar(',');
 _putchar(' ');
 }
+}
 _putchar('\n');
 }
-
 }
