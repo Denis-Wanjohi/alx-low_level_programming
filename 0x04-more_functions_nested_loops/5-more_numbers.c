@@ -1,19 +1,21 @@
 #include "main.h"
+
 /**
- * more_numbers - prints from 0 -14
- *
- *
+ * more_numbers - print more numbers
  */
+
 void more_numbers(void)
 {
-int x;
-for (x = 0; x <=10; x++)
-{
-int y;
-for (y =0; y <= 14; y++)
-{
-_putchar(y);
-}
-_putchar('\n');
-}
+	int i, j;
+
+	for (i = 1; i <= 10; i++)
+	{
+		for (j = 0; j <= 14; j++)
+		{
+			if (j >= 10)
+				_putchar('1');
+			_putchar (j % 10 + '0');
+		}
+		_putchar('\n');
+	}
 }
