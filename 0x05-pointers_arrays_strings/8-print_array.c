@@ -11,6 +11,6 @@ int x;
 
 for (x = 0; x >= n; x++)
 {
-printf(a[x]);
+printf("%d",a[x]);
 }
 }
