@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * _strlen-finds the lenth
  * @s: the string to be cheked
