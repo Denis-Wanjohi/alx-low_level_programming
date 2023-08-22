@@ -13,4 +13,5 @@ for (y = (strlen(s))-1;  y >= 0; y--)
 {
 _putchar(s[y]);
 }
+_putchar('\n');
 }
