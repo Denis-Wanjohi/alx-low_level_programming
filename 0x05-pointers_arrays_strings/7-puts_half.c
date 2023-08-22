@@ -12,5 +12,5 @@ for (x = (len)/2; x < len; x++)
 {
 putchar(str[x]);
 }
-_putchar('\n');
+putchar('\n');
 }
