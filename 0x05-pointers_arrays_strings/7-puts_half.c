@@ -1,10 +1,10 @@
 #include <stdio.h> 
 #include <string.h>
 /**
- *puts2(char *str)-prints half of the string
+ *puts_half(char *str)-prints half of the string
  *@str:string being used 
 */
-void puts2(char *str)
+void puts_half(char *str)
 {
 int x;
 int len = strlen(str);
