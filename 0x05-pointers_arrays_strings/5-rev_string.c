@@ -8,11 +8,9 @@
 
 void rev_string(char *s)
 {
-
-
 int y;
 for (y = (strlen(s))-1;  y >= 0; y--)
 {
-printf("%s",s[y]);
+_putchar(s[y]);
 }
 }
