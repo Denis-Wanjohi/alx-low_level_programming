@@ -14,5 +14,5 @@ for (x = 0; x <= n; x++)
 printf("%d",a[x]);
 printf("\' ");
 }
-printf('\n');
+printf("\n");
 }
