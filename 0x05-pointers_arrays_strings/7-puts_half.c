@@ -4,11 +4,15 @@
  *puts2(char *str)-prints half of the string
  *@str:string being used 
 */
-void puts_half(char *str)
+void puts2(char *str)
 {
 int x;
-int len=strlen(str);
-for (x = (len)/2; x < len; x++)
+int len = strlen(str);
+int half = len / 2;
+if(len % 2 == 1){
+  half = (len - 1) / 2;
+}
+for (x = half; x < len; x++)
 {
 putchar(str[x]);
 }
