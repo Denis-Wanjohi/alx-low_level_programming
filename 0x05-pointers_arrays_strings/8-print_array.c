@@ -11,6 +11,10 @@ int x;
 
 for (x = 0; x < n; x++)
 {
+if (x == (n - 1))
+{
+break;
+}
 printf("%d",a[x]);
 printf(", ");
 }
