@@ -10,8 +10,8 @@ int x;
 int len = strlen(str);
 int half = len / 2;
 if (len % 2 == 1)
-half = (len - 1) / 2;
-for (x = half + 1; x < len; x++)
+half = ((len - 1) / 2) + 1;
+for (x = half; x < len; x++)
 {
 putchar(str[x]);
 }
