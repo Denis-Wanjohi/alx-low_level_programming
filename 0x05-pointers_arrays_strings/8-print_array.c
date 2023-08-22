@@ -12,7 +12,7 @@ int x;
 for (x = 0; x < n; x++)
 {
 printf("%d",a[x]);
-printf("\' ");
+printf(", ");
 }
 printf("\n");
 }
