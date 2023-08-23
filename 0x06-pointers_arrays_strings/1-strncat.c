@@ -10,8 +10,8 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
-char src1=src[n];
-int x=strlen(dest);
-dest[x]=src1;
+char src1 = src[n];
+int x = strlen(dest);
+dest[x] = src1;
 return (dest);
 }
