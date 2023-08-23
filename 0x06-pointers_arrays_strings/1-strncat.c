@@ -4,6 +4,7 @@
  * *_strncat(char *dest, char *src, int n)-function that combines string with condition
  * @dest:string being used
  * @src:string being used
+ * @n:the index used
  * Return: the concatenated string
  */
 
