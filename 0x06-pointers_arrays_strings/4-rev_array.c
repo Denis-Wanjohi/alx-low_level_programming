@@ -7,24 +7,13 @@
 
 void reverse_array(int *a, int n)
 {
-int i;
-int j=n;
-int new[j];
-for(i=-1;i<n;i++)
-{
-new[j]=a[i];
-j--;
-}
-int z;
-z = 0;
-while (z < n)
-{
-if (z != 0)
-{
-printf(", ");
-}
-printf("%d", new[z]);
-z++;
-}
-printf("\n");
+	int i;
+	int t;
+
+	for (i = 0; i < n--; i++)
+	{
+		t = a[i];
+		a[i] = a[n];
+		a[n] = t;
+	}
 }
