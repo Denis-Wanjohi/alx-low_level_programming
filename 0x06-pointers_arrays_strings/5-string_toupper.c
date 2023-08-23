@@ -1,11 +1,11 @@
 #include  "main.h"
 /**
  * *string_toupper(char *)-changes to upper case
- * @*-string
+ * @v-string
  * Return - new string
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *v)
 {
 int x = strlen(*);
 char str[x];
