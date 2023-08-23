@@ -10,15 +10,9 @@
 
 char *string_toupper(char *v)
 {
-int x = strlen(*);
-char str[x];
-int i;
-for (i = 0; i < x; i++)
+for(int i=0;i< (strlen(v));i++)
 {
-str[i] = toupper(*[i]);
+v[i]=toupper(v[i]);
 }
-putchar('\n');
-return (str);
-
-
+return v;
 }
