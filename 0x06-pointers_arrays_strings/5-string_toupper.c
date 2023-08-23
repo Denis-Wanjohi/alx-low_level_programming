@@ -1,4 +1,7 @@
 #include  "main.h"
+#include <ctype.h>
+#include <string.h>
+
 /**
  * *string_toupper(char *)-changes to upper case
  * @v-string
