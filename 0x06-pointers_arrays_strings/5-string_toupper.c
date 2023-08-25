@@ -10,7 +10,8 @@
 
 char *string_toupper(char *v)
 {
-for(int i=0;i< (strlen(v));i++)
+int i;
+for (i = 0; i < (strlen(v)); i++)
 {
 v[i]=toupper(v[i]);
 }
