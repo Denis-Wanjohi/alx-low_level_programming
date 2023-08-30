@@ -15,4 +15,5 @@ else
 {
 _putchar('\0');
 }
+_putcahar('\n');
 }
