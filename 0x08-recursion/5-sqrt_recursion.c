@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * _sqrt_recursion(int n)-finds the square root
  * xValue(int n,int u)-helping function
+ * _sqrt_recursion(int n)-finds the square root
  * @u:counting value
  * @n:the value
  * Return:the squrae root value
  *
  */
-int xValue(int n,int u)
+int xValue(int n, int u)
 {
 if ((u * u) != n)
 {
