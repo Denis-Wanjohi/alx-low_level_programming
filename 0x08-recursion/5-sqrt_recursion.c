@@ -24,6 +24,10 @@ return (u);
 }
 return (u);
 }
+/**
+ * _sqrt_recursion(int n)-finds the square root
+ * @n:the value
+ */
 int _sqrt_recursion(int n)
 {
 int z = xValue(n, 0);
