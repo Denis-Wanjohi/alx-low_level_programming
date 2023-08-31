@@ -23,10 +23,10 @@ return (u);
 }
 int _sqrt_recursion(int n)
 {
+int z=xValue(n,0);
 if (n < 0)
 {
 return (-1);
-} 
-int z=xValue(n,0);    
+}    
 return (z);
 }
