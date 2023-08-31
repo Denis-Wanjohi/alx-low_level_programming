@@ -31,10 +31,10 @@ return 1;
 }
 int is_prime_number(int n)
 {
-if (n < 0)
+int z = xValue(n, 0);
+if (n < 2)
 {
 return (0);
 } 
-int z=xValue(n,0);
 return (z);
 }
