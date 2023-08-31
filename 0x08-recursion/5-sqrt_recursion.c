@@ -20,6 +20,7 @@ if ((u*u) == n)
 {  
 return (u);
 }
+return (u);
 }
 int _sqrt_recursion(int n)
 {
