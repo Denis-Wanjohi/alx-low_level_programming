@@ -2,11 +2,9 @@
 
 /**
  * xValue(int n,int u)-helping function
- * _sqrt_recursion(int n)-finds the square root
  * @u:counting value
  * @n:the value
  * Return:the squrae root value
- *
  */
 int xValue(int n, int u)
 {
@@ -27,6 +25,7 @@ return (u);
 /**
  * _sqrt_recursion(int n)-finds the square root
  * @n:the value
+ * Return:the squrae root value
  */
 int _sqrt_recursion(int n)
 {
