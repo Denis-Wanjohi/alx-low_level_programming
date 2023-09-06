@@ -3,17 +3,14 @@
 
 int main (int argc, char *argv[])
 {
-int x = atoi(argv[1]);
-int y = atoi(argv[2]);
-if (argv[1] == NULL || argv[2] == NULL)
+if (argc != 3)
 {
-printf("%s\n", "Error");
+printf("Error\n");
 return (1);
 }
 else
 {
-int z = x * y;
-printf("%d\n", z);  
+printf("%d\n", atoi(argv[1]) * atoi(argv[2]));  
 }
 return (0);
 }
