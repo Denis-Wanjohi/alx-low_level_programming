@@ -2,36 +2,38 @@
 #include <stdlib.h>
 #include <ctype.h>
 /**
-  *main-add the arguments
+  *main-adds the arguments
   *@argc:argument counter
   *@argv:argument vectors
   *Return:return 0 with no errors
   */
 int main(int argc, char *argv[])
 {
-if (argc != 3)
+if (argc <= 1)
 {
 printf("0\n");
 return (1);
 }
-char *arg1 = argv[1];
-char *arg2 = argv[2];
+for (int r = 1; r <= argc - 1; r++)
+{
+char *arg1 = argv[r];
 for (int i = 0; arg1[i] != '\0'; i++)
 {
 if (!isdigit((unsigned char)arg1[i]))
 {
+printf("%c\n", arg1[i]);
 printf("Error\n");
 return (1);
 }
+}   
 }
-for (int i = 0; arg2[i] != '\0'; i++)
+
+int total = 0;
+int num;
+for (num = 1; num <= argc; num++)
 {
-if (!isdigit((unsigned char)arg2[i]))
-{
-printf("Error\n");
-return (1);
+total = total + atoi(argv[num]);
 }
-}
-printf("%d\n", atoi(argv[1]) + atoi(argv[2]));
+printf("%d\n", total);
 return (0);
 }
