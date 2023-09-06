@@ -1,1 +1,1 @@
-memeory allocation
+memeory allocation.
