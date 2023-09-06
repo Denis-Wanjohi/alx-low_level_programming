@@ -9,31 +9,20 @@
   */
 int main(int argc, char *argv[])
 {
-if (argc <= 1)
-{
-printf("0\n");
-return (1);
-}
-for (int r = 1; r <= argc - 1; r++)
-{
-char *arg1 = argv[r];
-for (int i = 0; arg1[i] != '\0'; i++)
-{
-if (!isdigit((unsigned char)arg1[i]))
-{
-printf("%c\n", arg1[i]);
-printf("Error\n");
-return (1);
-}
-}   
-}
+int i, j, add = 0;
 
-int total = 0;
-int num;
-for (num = 1; num <= argc; num++)
-{
-total = total + atoi(argv[num]);
-}
-printf("%d\n", total);
-return (0);
+	for (i = 1; i < argc; i++)
+	{
+		for (j = 0; argv[i][j] != '\0'; j++)
+		{
+			if (!isdigit(argv[i][j]))
+			{
+				printf("Error\n");
+				return (1);
+			}
+		}
+		add += atoi(argv[i]);
+	}
+	printf("%d\n", add);
+	return (0);
 }
