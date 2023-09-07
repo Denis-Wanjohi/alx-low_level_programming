@@ -1,15 +1,27 @@
 #include <stdlib.h>
 #include <stdio.h>
-char *_strdup(char *str)
+
+
+
+char *_strdupl(char *str)
 {
 char *duplicate;
-unsigned int i;	
- if (str == NULL){
- return NULL;
- }
-duplicate=(char *)malloc(sizeof(str)+1);
-for(i=0;i<sizeof(str);i++){
-    duplicate[i]=str[i];
+unsigned int i;
+int c = 0;
+int len = 0;
+if (str == NULL)
+{
+return (NULL);
 }
-return duplicate;     
+while (str[c] != '\0')
+{
+len++;
+c++;
+}
+duplicate = (char *)malloc(len+1);
+for (i = 0; i < len; i++)
+{
+duplicate[i]=str[i];
+}
+return (duplicate);
 }
