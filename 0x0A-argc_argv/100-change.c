@@ -24,32 +24,31 @@ printf("0\n");
 else
 {
 cent = 0;
-while(num >= 25)
+while (num >= 25)
 {
 num = num - 25;
 cent++;
 }
-while(num >= 10)
+while (num >= 10)
 {
 num = num - 10;
 cent++;
 }
-while(num >= 5)
+while (num >= 5)
 {
 num = num - 5;
 cent++;
 }
-while(num >= 2)
+while (num >= 2)
 {
 num = num - 2;
 cent++;
 }
-while(num >= 1)
+while (num >= 1)
 {
 num = num - 1;
 cent++;
 }
-printf("%d\n", num);
 printf("%d\n", cent);
 }
 return (0);
