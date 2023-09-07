@@ -3,7 +3,7 @@
 
 
 
-char *_strdupl(char *str)
+char *_strdup(char *str)
 {
 char *duplicate;
 unsigned int i;
