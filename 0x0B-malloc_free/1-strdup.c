@@ -5,8 +5,7 @@ char *_strdupli(char *str)
  if (str == NULL){
  return NULL;
  }
-(char *duplicate=(char *)malloc(sizeof(str)+1);
-printf("%d\n",sizeof(str));
+char *duplicate=(char *)malloc(sizeof(str)+1);
 for(i=0;i<sizeof(str);i++){
     duplicate[i]=str[i];
 }
