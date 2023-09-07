@@ -15,7 +15,7 @@ int x;
 int total_len=0;
 int s2len=0;
 char *final;
-while (s1[i]! = '\0')
+while (s1[i] != '\0')
 {
 i++;
 }
@@ -37,7 +37,7 @@ final[i] = s1[i];
 final[i] = '\0';
 if (s2len < n)
 {
-while (s2[j]! = '\0')
+while (s2[j] != '\0')
 {
 final[i] = s2[j];
 i++;
