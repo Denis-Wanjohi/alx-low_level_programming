@@ -1,7 +1,8 @@
+#include <stdlib.h>
 #include <stdio.h>
-char *_strdupli(char *str)
+char *_strdup(char *str)
 {
- int i;	
+unsigned int i;	
  if (str == NULL){
  return NULL;
  }
