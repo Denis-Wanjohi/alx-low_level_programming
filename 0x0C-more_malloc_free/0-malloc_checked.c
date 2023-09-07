@@ -7,9 +7,9 @@
  */
 void *malloc_checked(unsigned int b)
 {
-int *ptr=(int *)malloc(b);
+int *ptr = (int *)malloc(b);
 if(ptr == NULL){
-    printf("98\n");
+printf("98\n");
 }
 return ptr;
 }
