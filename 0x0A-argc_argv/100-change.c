@@ -6,11 +6,10 @@
   *@argv:argument vectors
   *Return:return 0 with no errors
   */
-
 int main (int argc,char *argv[])
 {
 int num;
-int cent;
+int cent = 0;
 if (argc != 2)
 {
 printf("Error\n");
@@ -23,7 +22,6 @@ printf("0\n");
 }
 else
 {
-cent = 0;
 while (num >= 25)
 {
 num = num - 25;
