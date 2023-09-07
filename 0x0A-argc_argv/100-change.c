@@ -9,19 +9,21 @@
 
 int main (int argc,char *argv[])
 {
+int num;
+int cent;
 if(argc != 2)
 {
 printf("Error\n");
 return (1);
 }
-int num = atoi(argv[1]);
+num = atoi(argv[1]);
 if (num < 0)
 {
 printf("0\n");
 }
 else
 {
-int cent = 0;
+cent = 0;
 while(num >= 25)
 {
 num = num - 25;
