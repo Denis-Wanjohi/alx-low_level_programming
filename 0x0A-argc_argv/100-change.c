@@ -6,7 +6,7 @@
   *@argv:argument vectors
   *Return:return 0 with no errors
   */
-int main(int argc,char *argv[])
+int main(int argc, char *argv[])
 {
 int num;
 int cent = 0;
