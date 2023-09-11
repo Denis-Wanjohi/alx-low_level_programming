@@ -3,7 +3,7 @@
  * main-prints the file it was compiled from
  * Return:0 when success
  */
-int main()
+int main(void)
 {
 printf("%s\n", __FILE__);
 return (0);
