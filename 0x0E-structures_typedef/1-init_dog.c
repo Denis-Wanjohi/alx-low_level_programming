@@ -1,5 +1,5 @@
 #include "dog.h"
-
+#include "main.c"
 /**
  * @dog:struct
  * @name:value
