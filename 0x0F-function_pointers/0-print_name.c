@@ -1,3 +1,6 @@
 void print_name(char *name, void (*f)(char *)){
-printf("hello %s",name);
+f(name);
+}
+void print_name_function(char *name) {
+    printf("Name: %s\n", name);
 }
