@@ -19,6 +19,6 @@ results += va_arg(args,int);
 
 }
 va_end(args);
-printf("\n");
+_putchar('\n');
 return results;
 }
