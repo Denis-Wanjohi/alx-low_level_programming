@@ -4,7 +4,7 @@
 
 int sum_them_all(const unsigned int num, ...)
 {
-int i;
+unsigned int i;
 unsigned int results = 0;
 
 if(num == 0)
