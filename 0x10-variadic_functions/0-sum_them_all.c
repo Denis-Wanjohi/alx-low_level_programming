@@ -5,7 +5,7 @@
 int sum_them_all(const unsigned int num, ...)
 {
 int i;
-int results = 0;
+unsigned int results = 0;
 
 if(num == 0)
 {
