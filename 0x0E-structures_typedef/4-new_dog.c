@@ -1,12 +1,12 @@
 #include "dog.h"
 #include <stdlib.h>
 /**
- * new_dog(char *name, float age, char *owner)-creates a new dog
- * @name:name of the dog
- * @age:age of the dog
- * @owner:the owner of the dog
- * Return:NULL if code fails
+ * _strlen - returns the length of a string
+ * @s: string to evaluate
+ *
+ * Return: the length of the string
  */
+
 int _strlen(char *b)
 {
 int x = 0;
@@ -16,6 +16,13 @@ x++;
 }
 return (x);
 }
+/**
+ * new_dog(char *name, float age, char *owner)-creates a new dog
+ * @name:name of the dog
+ * @age:age of the dog
+ * @owner:the owner of the dog
+ * Return:NULL if code fails
+ */
 dog_t *new_dog(char *name, float age, char *owner)
 {
 int len1,len2;
