@@ -1,5 +1,5 @@
 #include "dog.h"
-#include <stdlib>
+#include <stdlib.h>
 /**
  * free_dog-frees the values
  * @d:dog to be freed
@@ -11,7 +11,6 @@ if (d == NULL )
 return;
 }
 free(d->name);
-free(d->age);
 free(d->owner);
 free(d);
 }
