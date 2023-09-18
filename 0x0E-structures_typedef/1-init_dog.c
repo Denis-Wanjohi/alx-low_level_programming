@@ -1,5 +1,6 @@
 #include "dog.h"
 /**
+ * init_dog(struct dog *d, char *name, float age, char *owner)-function initializer
  * @dog:struct
  * @name:value
  * @age:value
