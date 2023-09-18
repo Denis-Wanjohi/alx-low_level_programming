@@ -1,10 +1,16 @@
 #include "dog.h"
 #include <stdlib.h>
-
+/**
+ * new_dog(char *name, float age, char *owner)-creates a new dog
+ * @name:name of the dog
+ * @age:age of the dog
+ * @owner:the owner of the dog
+ * Return:NULL if code fails
+ */
 int _strlen(char *b)
 {
 int x = 0;
-while(b[x] != '\0')
+while (b[x] != '\0')
 {
 x++;
 }
@@ -23,18 +29,18 @@ if (newDog == NULL)
 {
 return (NULL);
 }
-if(newDog->name == NULL)
+if (newDog->name == NULL)
 {
 free(newDog->name);
-return NULL;
+return (NULL);
 }  
-if(newDog->owner == NULL)
+if (newDog->owner == NULL)
 {
 free(newDog->owner);
-return NULL;
+return (NULL);
 }
 newDog->name = name;
 newDog->age = age;
 newDog->owner  = owner;
-return newDog;
+return (newDog);
 }
