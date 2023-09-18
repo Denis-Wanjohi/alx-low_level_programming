@@ -4,7 +4,7 @@
 int _strlen(char *b)
 {
 int x = 0;
-while(b[x] != '\0')
+while (b[x] != '\0')
 {
 x++;
 }
@@ -23,18 +23,18 @@ if (newDog == NULL)
 {
 return (NULL);
 }
-if(newDog->name == NULL)
+if (newDog->name == NULL)
 {
 free(newDog->name);
-return NULL;
-}  
-if(newDog->owner == NULL)
+return (NULL);
+}
+if (newDog->owner == NULL)
 {
 free(newDog->owner);
-return NULL;
+return (NULL);
 }
 newDog->name = name;
 newDog->age = age;
 newDog->owner  = owner;
-return newDog;
+return (newDog);
 }
