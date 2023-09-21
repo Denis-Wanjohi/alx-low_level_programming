@@ -1,4 +1,5 @@
 #include "list.h"
+#include <stdlib.h>
 /**
  * print_list(const list_t *h)-checks the list length
  * typedef list_t
@@ -8,11 +9,10 @@
 size_t list_len(const list_t *h) 
 {
 size_t x = 0;
-const list_t *current = h;
-while (current != NULL)
+while (h)
 {
 x++;
-current = current->next;
+h = h->next;
 }
 return x;
 }
