@@ -1,18 +1,19 @@
-#include "list.h"
 #include <stdlib.h>
+#include "lists.h"
+
 /**
- * print_list(const list_t *h)-checks the list length
- * typedef list_t
- * @h:pointer
- * return-the length
+ * list_len - returns the number of elements in a linked list
+ * @h: pointer to the list_t list
+ *
+ * Return: number of elements in h
  */
-size_t list_len(const list_t *h) 
+size_t list_len(const list_t *h)
 {
-size_t x = 0;
+size_t n = 0;
 while (h)
 {
-x++;
+n++;
 h = h->next;
 }
-return x;
+return (n);
 }
