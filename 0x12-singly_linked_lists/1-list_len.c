@@ -5,7 +5,7 @@
  * @h:pointer
  * return-the length
  */
-size_t print_list(const list_t *h) 
+size_t list_len(const list_t *h) 
 {
 const list_t *current = h;
 int x = 0;
