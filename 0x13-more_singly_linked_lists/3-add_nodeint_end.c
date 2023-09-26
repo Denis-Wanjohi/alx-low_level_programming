@@ -24,7 +24,6 @@ listint_t *newNode = generateNewNode(n);
 if(*head == NULL)
 {
 *head = newNode;
-return (NULL);
 }
 else
 {
