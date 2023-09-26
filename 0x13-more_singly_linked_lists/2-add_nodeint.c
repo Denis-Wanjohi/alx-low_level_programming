@@ -21,10 +21,14 @@ return newNode;
 */
 listint_t *add_nodeint(listint_t **head, const int n)
 {
+if (head == NULL)
+{
+return (NULL);
+}
 listint_t *newNode = generateNewNode(n);
 if (newNode == NULL)
 {
-return NULL;
+return (NULL);
 }
 newNode->next = *head;
 *head = newNode;
