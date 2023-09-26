@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "lists.h"
 /**
- * print_listint()-function to check the no of items in a list
+ * print_listint(const listint_t *h)-function to check the no of items in a list
  * @h:pointer
  * Return:number of items
  */
