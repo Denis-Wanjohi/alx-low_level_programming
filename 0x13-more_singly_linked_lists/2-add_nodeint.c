@@ -4,19 +4,19 @@
  * @n:the node
  * Return-the new created node
 */
-listint_t  *generateNewNode(int n)
+listint_t *generateNewNode(int n)
 {
-listint_t  *newNode =  (listint_t*)malloc(sizeof(listint_t));
+listint_t *newNode = (listint_t*)malloc(sizeof(listint_t));
 newNode->n = n;
 newNode->next = NULL;
 return newNode;
 }
 /**
- * add_nodeint()-pointer function
+ * listint_t *add_nodeint_end(listint_t **head, const int n)-function adding node
  * typedef listint_t
  * @head:pointer to struct
  * @n:the vale
- * Return-the address
+ * Return:the address
  * 
 */
 listint_t *add_nodeint(listint_t **head, const int n)
