@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include "lists.h"
 /**
- * print_listint(const listint_t *h)-prints nodes
- * typedef listint_t
- * @h:pointer
- * Return-number of items 
-*/
+ * print_listint - prints all the elements of a linked list
+ * @h: linked list of type listint_t to print
+ *
+ * Return: number of nodes
+ */
 size_t print_listint(const listint_t *h)
 {
 int counter = 0;
