@@ -13,7 +13,7 @@ return (NULL);
 }
 newNode->n = n;
 newNode->next = NULL;
-return newNode;
+return (newNode);
 }
 /**
  * add_nodeint_end - function adding node
