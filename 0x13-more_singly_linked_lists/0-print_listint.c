@@ -2,7 +2,6 @@
 #include "lists.h"
 /**
  * print_listint()-function to check the no of items in a list
- * typedef listint_t
  * @h:pointer
  * Return:number of items
  */
