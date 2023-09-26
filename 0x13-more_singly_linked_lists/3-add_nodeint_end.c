@@ -1,15 +1,20 @@
 #include "lists.h"
 /**
- * generateNewNode()-creates a new node
- * @n:the node
- * Return-the new created node
+ * generateNewNode(int n)-creates a new node
+ * @n: the node
+ *
+ * Return: the new created node
 */
 listint_t *generateNewNode(int n)
 {
 listint_t *newNode = (listint_t*)malloc(sizeof(listint_t));
+if (newNode == NULL)
+{
+return (NULL);
+}
 newNode->n = n;
 newNode->next = NULL;
-return newNode;
+return (newNode);
 }
 /**
  * listint_t *add_nodeint_end(listint_t **head, const int n)-function adding node
