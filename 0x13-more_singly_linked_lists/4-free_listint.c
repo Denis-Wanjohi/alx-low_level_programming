@@ -6,7 +6,7 @@ listint_t *initial = head;
 while ( initial != NULL )
 {
 listint_t *temporary = initial;
-initial = initiaal->next;
+initial = initial->next;
 free(temporary);
 }
 }
