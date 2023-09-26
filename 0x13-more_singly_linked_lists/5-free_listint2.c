@@ -1,5 +1,5 @@
 #include "lists.h"
-void free_listint(listint_t *head)
+void free_listint2(listint_t *head)
 {
 listint_t *initial = head;
 while ( initial != NULL )
