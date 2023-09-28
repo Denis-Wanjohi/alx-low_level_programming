@@ -1,26 +1,30 @@
 #include "main.h"
-/**
- * binary_to_uint - converts to int
- * @b:value to be used
- * Return:value in base 10
- */
 
 unsigned int binary_to_uint(const char *b)
 {
-int total = 0;
-int len = strlen(b);
+unsigned int result = 0;
+int f = 0;
+int length = 0;
 int i;
-int j = 0;
-for (i = len - 1,i >= 0; i--, j++)
+while (b[f] != '\0')
+{
+length++;
+f++;
+}      
+for (i = 0; i < length; i++)
 {
 if (b[i] == '1')
 {
-total += (1 << j);
+result = (result << 1) | 1;
 }
-else if (b[i] != '0')
+else if (b[i] == '0')
+{
+result = (result << 1);
+}
+else
 {
 return (0);
 }
 }
-return (total);
+return (result);
 }
