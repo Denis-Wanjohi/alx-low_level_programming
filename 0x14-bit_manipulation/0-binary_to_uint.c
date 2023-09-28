@@ -4,7 +4,6 @@
  * @b: value being used
  * Return: the int value
  */
-
 unsigned int binary_to_uint(const char *b)
 {
 unsigned int result = 0;
