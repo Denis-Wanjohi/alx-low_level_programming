@@ -6,7 +6,7 @@
 #include "string.h"
 
 
-int binary_to_uint(char *x);
+unsigned int binary_to_uint(char *x);
 
 
 #endif

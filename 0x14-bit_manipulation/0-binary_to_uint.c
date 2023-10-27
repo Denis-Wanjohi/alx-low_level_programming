@@ -5,7 +5,7 @@
  * Return: the integer in base 10
  */
 
-int binary_to_uint (char *x)
+unsigned int binary_to_uint (char *x)
 {
 
   int lenght = strlen (x);
