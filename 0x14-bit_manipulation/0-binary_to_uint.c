@@ -1,31 +1,29 @@
 #include "main.h"
-/*
+/**
  * binary_to_unit - converts from binary
  * @x: string to convert
  * Return: the integer in base 10
  */
 
-unsigned int binary_to_uint (char *x)
+unsigned int binary_to_uint(const char *b)
 {
+	int a;
+	unsigned int num;
 
-  int lenght = strlen (x);
-
-  int total = 0;
-
-  int position = 0;
-
-  int i;
-
-  for (i = lenght - 1; i >= 0; i--)
-    {
-
-      if (x[i] == '1')
-
-	total = total + (1 << position);
-
-      position++;
-
-    }
-  return total;
-
+	num = 0;
+	if (!b)
+		return (0);
+	for (a = 0; b[a] != '\0'; a++)
+	{
+		if (b[a] != '0' && b[a] != '1')
+			return (0);
+	}
+	for (a = 0; b[a] != '\0'; a++)
+	{
+		num <<= 1;
+		if (b[a] == '1')
+			num += 1;
+	}
+	return (num);
 }
+
